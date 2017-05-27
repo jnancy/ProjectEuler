@@ -5,7 +5,7 @@
 //  Created by Nancy Jiang on 2017-02-12.
 //  Copyright © 2017 Nancy Jiang. All rights reserved.
 //
-// Largest prime factor.
+// Finds the NUMBERth prime
 
 #include <stdio.h>
 
