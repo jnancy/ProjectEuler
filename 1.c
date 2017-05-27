@@ -18,7 +18,7 @@ int main( void ){
     int sum = 0;
     
     for( num = 1; num < MAX; num++){
-        if (num%3 == 0 || num%5 == 0)
+        if (num%FACTOR1 == 0 || num%FACTOR2 == 0)
             sum+=num;
     }
     
