@@ -1,2 +1,2 @@
 # Project Euler
-My solutions for Project Euler problems (written in C)
+My Project Euler solutions (written in C)
