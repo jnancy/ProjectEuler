@@ -1,4 +1,4 @@
-// ***WORK IN PROGRESS***
+//  **Works but not optimal**
 //  Highly divisible triangular number
 //  12
 //  What is the value of the first triangle number to have over five hundred divisors?
