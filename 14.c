@@ -1,7 +1,7 @@
 //  **WORK IN PROGRESS**
 //  Longest Collatz sequence
 //  Which starting number, under one million, produces the longest chain?
-//  n -> n/1 (n is even); n -> 3n + 1 (n is odd)
+// n -> n/1 (n is even); n -> 3n + 1 (n is odd)
 //  main.c
 //  14
 //
@@ -10,27 +10,28 @@
 //
 
 #include <stdio.h>
+#define MAX 1000000
 
 int main(void){
-    int startingnum, nextnum, count, num, longestlength = 0;
+    int i, sequence, count, sequenceLength = 0, startingNumber = 0;
     
-    for(startingnum = 900000; startingnum < 1000000; startingnum++){
-        nextnum = startingnum;
-        while(nextnum>1){
-            if (nextnum%2 == 0){
-                nextnum/=2;
+    for(i = 1; i <= MAX; i++){
+        sequence = i;
+        count = 0;
+        while(sequence>1){
+            if (sequence%2 == 0){
+                sequence/=2;
             }
             else{
-                nextnum = 3*nextnum + 1;
+                sequence = 3*sequence + 1;
             }
             count++;
         }
-        if(count>longestlength){
-            longestlength = count;
-            num = startingnum;
+        if(count>sequenceLength){
+            sequenceLength = count;
+            startingNumber = i;
         }
     }
-    
-    printf("%d", startingnum);
-        
+    printf("%d", startingNumber);
 }
+
