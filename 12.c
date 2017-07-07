@@ -11,17 +11,17 @@
 #include <stdio.h>
 
 int main(void){
-    int i=1,tnum=1,j,numdiv;
+    int i=1,triangleNum=1,div,numDiv;
     
-    while(numdiv<=500){
+    while(numDiv<=500){
         i++;
-        tnum+=i;
-        numdiv=0;
-        for(j=1;j<=tnum;j++){
-            if(tnum%j==0)
-                numdiv++;
+        triangleNum+=i;
+        numDiv=0;
+        for(div=1;div<=triangleNum;div++){
+            if(triangleNum%div==0)
+                numDiv++;
         }
     }
-    printf("%d",tnum);
+    printf("%d",triangleNum);
     
 }
