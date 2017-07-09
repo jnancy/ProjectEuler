@@ -75,7 +75,8 @@ int main(void) {
     //used for numbers >=100, therefore used (999-100+1) times
     count+=900*HUNDRED;
     //counts the number of times "and" is used
-    count+=AND;
+    //used for numbers >=100 that aren't divisible by 100, therefore used (999-100+1-9) times
+    count+=891*AND;
     
     printf("%d",count);
     return 0;
