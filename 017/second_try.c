@@ -1,4 +1,15 @@
 //Attempt numero dos:
+//  ** WORK IN PROGRESS **
+//  main.c
+//  17
+//
+//  Created by Nancy Jiang on 2017-07-08.
+//  Copyright © 2017 Nancy Jiang. All rights reserved.
+//
+
+#include <stdio.h>
+#define HUNDRED 7
+#define THOUSAND 8
 
 int main(void) {
     //stores the number of letters in numbers 0-9 (note that zero is 0 because it is never included in written numbers >= 1)
