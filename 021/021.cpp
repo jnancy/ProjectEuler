@@ -26,8 +26,8 @@ int main() {
     
     for(a=1; a<N; a++){
         b=d(a);
-        if(b<N && d(b)==a){
-                sum+=a;
+        if(b<N && d(b)==a && a!=b){
+            sum+=a;
         }
     }
     cout<<sum<<endl;
