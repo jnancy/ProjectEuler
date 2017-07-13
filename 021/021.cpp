@@ -1,4 +1,3 @@
-//** WORK IN PROGRESS **
 //  main.c
 //  21
 //
