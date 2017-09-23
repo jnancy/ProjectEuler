@@ -21,7 +21,6 @@ int main( void ){
         if (num%FACTOR1 == 0 || num%FACTOR2 == 0)
             sum+=num;
     }
-    
     printf("Sum is %d.", sum);
-    
+    return 0;
 }
